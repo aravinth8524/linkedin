@@ -1,0 +1,191 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	min-height:100vh;
+	position:relative;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.linkedin{
+	margin:1rem;
+}
+.linkedin a{
+	font-size:27px;
+	color:rgb(10,102,190);
+	text-decoration:none;
+	font-weight:700;
+}
+
+main{
+	display:flex;
+	justify-content:center;
+	margin:o auto;
+	align-items: center;
+}
+.container{
+	width:380px;
+	height:537px;
+	box-shadow:0 0 10px rgb(240,240,240);
+	display:flex;
+	flex-direction:column;
+	border-radius:12px;
+}
+.head{
+	margin-left:2rem;
+	margin-top:1rem;
+	
+}
+.head h2{
+	font-weight:400;
+	font-size:2em;
+	margin-bottom:0.1em;
+}
+.form{
+	margin:2em;
+	position:relative;
+	
+}
+input{
+	font-size:inherit;
+	width:320px;
+	padding:0.9em;
+	outline:none;
+}
+.form a{
+	position:absolute;
+	right:2px;
+	bottom:16px;
+	text-decoration:none;
+	transition: all 0.3s ease;
+	color:rgb(105,147,190);
+	padding:3px 6px;
+	border-radius:24px;
+	font-size:13px;
+}
+.form a:hover{
+	background-color:rgb(208,232,254);
+}
+.forgot{
+    margin-top: -1em;
+    margin-left: 2rem;
+	
+}
+.forgot a{
+	color:rgb(105,147,190);
+	text-decoration:none;
+	padding:6px 8px;
+	border-radius:20px;
+	transition: all 0.3s ease;
+}
+.forgot a:hover{
+	background-color:rgb(208,232,254);
+	text-decoration:underline;
+}
+.signin {
+	text-align:center;
+	margin-top:2em;
+	width:100%;
+}
+.signin a{
+	color:white;
+	text-decoration:none;
+	padding:16px 145px;
+	background-color:rgb(11,102,195);
+	border-radius:26px;
+	transition: all 0.3s ease;
+}
+.signin a:hover{
+	background-color:rgb(0,65,129);
+}
+.line{
+	display:flex;
+	align-items:center;
+	margin-top:2rem;
+}
+.line hr{
+	width:40%;
+	margin:0px 1rem;
+}
+.appstore{
+	text-align:center;
+	width:100%;
+	
+}
+
+.appstore a{
+	border: 2px solid rgb(168,168,168);
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 15px 88px;
+    margin-right: 18px;
+    border-radius: 26px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: rgb(66,64,73);
+}
+.appstore i{
+	position:relative;
+	left:89px;
+	font-size:1.2rem;
+}
+.appstore2{
+	text-align:center;
+}
+.appstore2 a{
+    border: 2px solid rgb(168,168,168);
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 15px 104px;
+    border-radius: 29px;
+    margin-right: 15px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: rgb(66,64,73);
+}
+.appstore2 i{
+	position:relative;
+	left:105px;
+	font-size:1.2rem;
+}
+.join{
+	text-align:center;
+	margin-top:1rem;
+}
+.join a{
+	margin-left:10px;
+	text-decoration:none;
+	color:rgb(105,147,190);
+	padding:6px 8px;
+	border-radius:20px;
+}
+.join a:hover{
+	background-color:rgb(208,232,254);
+	text-decoration:underline;
+}
+footer{
+	margin-top:2em;
+}
+.footer{
+	display:flex;
+	justify-content:center;
+	
+}
+.footer p{
+	margin-left:10px;
+}
+.footer i{
+	margin-top:3px;
+}
+.links a{
+	text-decoration:none;
+	margin-left:10px;
+	font-size:13px;
+	padding-bottom:1em;
+	color:rgb(102,102,102);
+}
+.links a:hover{
+	text-decoration:underline;
+}
